@@ -1,11 +1,14 @@
-
+import Barra from './Component/Navbar/Index';
+import  'bootstrap/dist/css/bootstrap.min.css' ;
+import Routes from './Routes';
+import Grafico from './Component/Grafico';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-      </header>
+        <Barra/>
+       <Routes/>
+       <Grafico/>
     </div>
   );
 }
